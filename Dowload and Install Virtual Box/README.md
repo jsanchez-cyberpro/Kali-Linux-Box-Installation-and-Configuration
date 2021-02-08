@@ -61,19 +61,30 @@ Once the VirtualBox Application is done installing. The application windows will
 with the installation of the Kali Linux OS. 
 
 Step 1 - Download the Kali Linux package from its offical site https://www.kali.org/downloads/
-![alt text](https://github.com/cyberprotocols/cyberpro_inc/blob/main/Diagrams/Virtual_Network_Map.JPG)
+
+![alt text](https://github.com/jsanchez-cyberpro/Kali-Linux-Box-Installation-and-Configuration/blob/main/Dowload%20and%20Install%20Virtual%20Box/Kali%20linux%201.JPG)
+
 
 Step 2 - Open VirtualBox --> under Machine select --> New as shown in the screenshot below. 
-![alt text](https://github.com/cyberprotocols/cyberpro_inc/blob/main/Diagrams/Virtual_Network_Map.JPG)
+
+![alt text](https://github.com/jsanchez-cyberpro/Kali-Linux-Box-Installation-and-Configuration/blob/main/Dowload%20and%20Install%20Virtual%20Box/Kali%20linux%202.JPG)
+
 
 Step 3 - Choose the right Virtual Hard Disk File and click Open.
-![alt text](https://github.com/cyberprotocols/cyberpro_inc/blob/main/Diagrams/Virtual_Network_Map.JPG)
+
+![alt text](https://github.com/jsanchez-cyberpro/Kali-Linux-Box-Installation-and-Configuration/blob/main/Dowload%20and%20Install%20Virtual%20Box/Kali%20linux%203.JPG)
+
 
 Step 4 - Under the Create Virtual Machine Screen click on Create.
-![alt text](https://github.com/cyberprotocols/cyberpro_inc/blob/main/Diagrams/Virtual_Network_Map.JPG)
+
+![alt text](https://github.com/jsanchez-cyberpro/Kali-Linux-Box-Installation-and-Configuration/blob/main/Dowload%20and%20Install%20Virtual%20Box/Kali%20linux%204.JPG)
 
 Step 5 - Start Kali Box. The default username is root and the password is toor.
-![alt text](https://github.com/cyberprotocols/cyberpro_inc/blob/main/Diagrams/Virtual_Network_Map.JPG)
+
+![alt text](https://github.com/jsanchez-cyberpro/Kali-Linux-Box-Installation-and-Configuration/blob/main/Dowload%20and%20Install%20Virtual%20Box/Kali%20Linux%205.JPG)
+
+![alt text](https://github.com/jsanchez-cyberpro/Kali-Linux-Box-Installation-and-Configuration/blob/main/Dowload%20and%20Install%20Virtual%20Box/Kali%20Linux%205%20pt2.JPG)
+
 
 ### Configure and Update Kali  
 
@@ -82,28 +93,29 @@ to ensure our box is as secure as possible. Please Follow the steps below:
 
 Step 1 - Making sure Kali is Up to Date. First Open the Terminal in Kali and run: sudo apt update && sudo apt dist-upgrade -y 
 
-![alt text](https://github.com/cyberprotocols/cyberpro_inc/blob/main/Ansible/docker_ps_screenshot.png)
-![alt text](https://github.com/cyberprotocols/cyberpro_inc/blob/main/Ansible/docker_ps_screenshot.png)
+![alt text](https://github.com/jsanchez-cyberpro/Kali-Linux-Box-Installation-and-Configuration/blob/main/Dowload%20and%20Install%20Virtual%20Box/Update%20Kali%201.JPG)
+![alt text](https://github.com/jsanchez-cyberpro/Kali-Linux-Box-Installation-and-Configuration/blob/main/Dowload%20and%20Install%20Virtual%20Box/update%20kali%201%20pt%202.JPG)
+
 
 Step 2 - Changing the default password type: passwrd --> then it will prompt you for the current password. Type toor and then your new password
 and go ahead and confirm the new password by retyping it. 
 
-![alt text](https://github.com/cyberprotocols/cyberpro_inc/blob/main/Ansible/docker_ps_screenshot.png)
+![alt text](https://github.com/jsanchez-cyberpro/Kali-Linux-Box-Installation-and-Configuration/blob/main/Dowload%20and%20Install%20Virtual%20Box/Update%20Kali%202.JPG)
 
-Step 3 - Creating a Low Privileged User Account.Type --> Sudo adduser Username, enter the password but make sure its different than the root password.
+Step 3 - Creating a Low Privileged User Account.Type --> Sudo adduser (Username), enter the password but make sure its different than the root password.
 This will create a new user as well as a home folder. To verify a home folder was created type --> ls /home/  
 
-![alt text](https://github.com/cyberprotocols/cyberpro_inc/blob/main/Ansible/docker_ps_screenshot.png)
+![alt text](https://github.com/jsanchez-cyberpro/Kali-Linux-Box-Installation-and-Configuration/blob/main/Dowload%20and%20Install%20Virtual%20Box/update%20kali%203.JPG)
 
 Step 4 - Remove the new user just created from Sudo group. This will ensure even if your account is compromised, the attack will not have sudo privilages
 unless they managed to also compromise the 'root' account. This will provide an extra layer of protection. 
   
-![alt text](https://github.com/cyberprotocols/cyberpro_inc/blob/main/Ansible/docker_ps_screenshot.png)
+![alt text](https://github.com/jsanchez-cyberpro/Kali-Linux-Box-Installation-and-Configuration/blob/main/Dowload%20and%20Install%20Virtual%20Box/update%20kali%204.JPG)
 
 
 ### Educate yourself!
 
-Now that you have been fulle equiped with the right technical set up, it's time to upgrade yourself. I will be posting more How-To on Installing useful tools
+Now that you have been fully equiped with the right technical set up, it's time to upgrade yourself. I will be posting more How-To on Installing useful tools
 for Ethecial Hacking. 
 
 ##Subdomain Enumeration
