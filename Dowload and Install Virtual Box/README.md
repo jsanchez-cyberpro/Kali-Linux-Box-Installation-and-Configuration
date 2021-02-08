@@ -20,25 +20,38 @@ Let's walk through how to Download and install a VirtualBox enviroment in your c
 
 Step 1 - To Download, go to https://www.virtualbox.org/wiki/Downloads. Depending on your host OS, select the right package. In this case,
 it will be the first package for windows hostas shown in the following screenshot. 
+
 ![alt text](https://github.com/jsanchez-cyberpro/Kali-Linux-Box-Installation-and-Configuration/blob/main/Dowload%20and%20Install%20Virtual%20Box/Download_page_screenshot.JPG)
 
+
 Step 2 - Open the Dowloaded .exe file and click next
+
 ![alt text](https://github.com/jsanchez-cyberpro/Kali-Linux-Box-Installation-and-Configuration/blob/main/Dowload%20and%20Install%20Virtual%20Box/VirtualBox%202.JPG)
+
 
 Step 3 - The next page will give you an option to choose the location where you wan to install the application. In this case, let us leave it as default
 and click Next. 
+
 ![alt text](https://github.com/jsanchez-cyberpro/Kali-Linux-Box-Installation-and-Configuration/blob/main/Dowload%20and%20Install%20Virtual%20Box/VirtualBox%203.JPG)
 
+
 Step 4 - Click Next and the following Custom Setup screenshot pops up. Select the features you want to installed and click Next. 
-![alt text](https://github.com/cyberprotocols/cyberpro_inc/blob/main/Diagrams/Virtual_Network_Map.JPG)
+
+![alt text](https://github.com/jsanchez-cyberpro/Kali-Linux-Box-Installation-and-Configuration/blob/main/Dowload%20and%20Install%20Virtual%20Box/Virtual%20Box%204.JPG)
+
 
 Step 5 - Click Yes to begin with the installation. 
+
 ![alt text](https://github.com/jsanchez-cyberpro/Kali-Linux-Box-Installation-and-Configuration/blob/main/Dowload%20and%20Install%20Virtual%20Box/Virtual%20Box%205.JPG)
 
-step 6 - The Ready to Install screen will pop up next. Click Install. 
+
+Step 6 - The Ready to Install screen will pop up next. Click Install. 
+
 ![alt text](https://github.com/jsanchez-cyberpro/Kali-Linux-Box-Installation-and-Configuration/blob/main/Dowload%20and%20Install%20Virtual%20Box/Virtual%20Box%206.JPG)
 
-step 7 - Click the finish button 
+
+Step 7 - Click the finish button 
+
 ![alt text](https://github.com/jsanchez-cyberpro/Kali-Linux-Box-Installation-and-Configuration/blob/main/Dowload%20and%20Install%20Virtual%20Box/Virtual%20Box%207.JPG)
 
 
