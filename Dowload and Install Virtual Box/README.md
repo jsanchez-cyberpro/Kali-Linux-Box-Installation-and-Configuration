@@ -19,7 +19,7 @@ With the help of a VirtualBox, you can install Kali Linux in your system (in a s
 Let's walk through how to Download and install a VirtualBox enviroment in your computer. 
 
 Step 1 - To Download, go to https://www.virtualbox.org/wiki/Downloads. Depending on your host OS, select the right package. In this case,
-it will be the first package for windows hostas shown in the following screenshot. 
+it will be the first package for windows hosts shown in the following screenshot. 
 
 ![alt text](https://github.com/jsanchez-cyberpro/Kali-Linux-Box-Installation-and-Configuration/blob/main/Dowload%20and%20Install%20Virtual%20Box/Download_page_screenshot.JPG)
 
